@@ -10,7 +10,7 @@ body{
   margin: 0 auto !important;
   max-width: 600px !important;
   border: 1px solid transparent !important;
-  box-shadow: rgba(100, 100,111,0.2) 0px 7px 29px 0px !important;
+  box-shadow: rgba(222, 222, 238, 0.2) 0px 7px 29px 0px !important;
   margin-top: 90px !important;
   /* z-index: -1 !important; */
 }
@@ -39,12 +39,20 @@ body{
 
 }
 .dark-theme{
-background: rgb(0, 1, 14) !important; 
+background: rgb(0, 0, 0) !important; 
 color: rgb(250, 255, 252) !important;
 }
  .dark-theme .container .dark .btn{
-  background-color: rgb(2, 2, 29) !important;
+  background-color: rgb(0,0,0) !important;
 }
  .dark-theme .container .dark .btn:hover{
   background-color: rgb(248, 249, 250) !important;
 } 
+
+.dark-theme .details{
+  color: rgb(40, 43, 43) !important;
+}
+
+.dark-theme .container{
+  background-color: rgb(0, 0, 3);
+}
